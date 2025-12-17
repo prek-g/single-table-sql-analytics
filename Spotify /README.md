@@ -473,11 +473,13 @@ where track = 'Feel Good Inc.'
 
 ![2](sp_update.png)
 
+## Conclusion
 In this project, I:
 - Created a single-table Spotify database and imported track data
 - Explored and analyzed the data using aggregation, filtering, and ranking queries
 - Applied window functions for per-artist and per-album analytics
 - Built SQL functions to classify engagement tiers
 - Developed stored procedures to automate engagement calculations
+
 
 

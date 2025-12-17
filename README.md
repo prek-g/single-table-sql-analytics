@@ -1,5 +1,5 @@
 # Spotify SQL Analytics Project
-
+![1](netflix.png)
 ---
 
 ## Table of Contents
@@ -478,3 +478,4 @@ In this project, I:
 - Built SQL functions to analyze content by country, year, and ratings
 - Developed a recommendation function to return top relevant shows based on keyword, year, and maturity rating
 - This project highlights how I performed end-to-end analytics on a media streaming dataset using SQL.
+

@@ -305,16 +305,20 @@ BEGIN
         RAISE NOTICE 'Performance summary successfully refreshed for % ', p_user_id;
 END;
 $$;
-
+```
+```sql
 -- Testing the function
 CALL refresh_user_performance_summary('1.23546E+18')
 SELECT * FROM user_performance_summary
+```
 ![True](user_performance_summary.png)
 
+```sql
 -- Testing the function with an user id that does not exist
 CALL refresh_user_performance_summary('2.23546E+18')
 ```
 ![False](user_performance_summary_does_not_exist.png)
 
 In this project I created tables to store user submissions, performed aggregations and ranking queries, used window functions for running totals and analytics, built stored functions for per-user summaries, and implemented stored procedures to automate performance snapshots.
+
 

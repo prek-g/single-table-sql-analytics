@@ -7,12 +7,12 @@ This repository contains **three SQL projects** that analyze datasets from a gam
 ## Projects Overview
 
 ### 1. Gamified Learning Project
-![User Submit](User_Submit/user_submissions.png)
+![User Submit](User_Submit /user_submissions.png)
 **Goal:** Analyze user submissions and performance in a gamified learning platform.  
 **What I did:** Created tables, aggregated user metrics, applied window functions for ranking and running totals, implemented stored functions for per-user summaries, and automated performance snapshots with stored procedures.
 
 ### 2. Spotify Project
-![Spotify Table](Spotify/spotify.png)
+![Spotify Table](Spotify /spotify.png)
 **Goal:** Explore Spotify track and album data to identify trends in engagement and performance.  
 **What I did:** Aggregated streams, likes, and comments; ranked tracks and artists; calculated engagement ratios; used window functions for analytics; created a function to classify engagement tiers and a procedure to update ratios automatically.
 
@@ -31,6 +31,7 @@ This repository contains **three SQL projects** that analyze datasets from a gam
 - Stored procedures to update or snapshot metrics automatically  
 
 ---
+
 
 
 

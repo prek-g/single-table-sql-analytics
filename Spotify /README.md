@@ -78,7 +78,7 @@ CREATE TABLE spotify (
     most_played_on VARCHAR(50)
 );
 
--- Import CSV (example)
+-- Import CSV 
 -- \copy spotify FROM '/mnt/c/Users/gjoni/Desktop/Spotify_SQL/spotify.csv' DELIMITER ',' CSV HEADER;
 
 SELECT * FROM spotify;
@@ -480,6 +480,7 @@ In this project, I:
 - Applied window functions for per-artist and per-album analytics
 - Built SQL functions to classify engagement tiers
 - Developed stored procedures to automate engagement calculations
+
 
 
 

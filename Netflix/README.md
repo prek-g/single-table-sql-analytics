@@ -70,7 +70,7 @@ CREATE TABLE spotify (
     most_played_on VARCHAR(50)
 );
 
--- Import CSV (example)
+-- Import CSV 
 -- \copy spotify FROM '/mnt/c/Users/gjoni/Desktop/Spotify_SQL/spotify.csv' DELIMITER ',' CSV HEADER;
 
 SELECT * FROM spotify;
@@ -478,4 +478,5 @@ In this project, I:
 - Built SQL functions to analyze content by country, year, and ratings
 - Developed a recommendation function to return top relevant shows based on keyword, year, and maturity rating
 - This project highlights how I performed end-to-end analytics on a media streaming dataset using SQL.
+
 

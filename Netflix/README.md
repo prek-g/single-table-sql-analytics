@@ -305,8 +305,8 @@ from netflix
 SELECT
     content_category,
     count(*)
-    FROM content_cat
-    GROUP BY 1;
+FROM content_cat
+GROUP BY 1;
  ```
 
 ## SQL Functions
@@ -478,5 +478,6 @@ In this project, I:
 - Built SQL functions to analyze content by country, year, and ratings
 - Developed a recommendation function to return top relevant shows based on keyword, year, and maturity rating
 - This project highlights how I performed end-to-end analytics on a media streaming dataset using SQL.
+
 
 
